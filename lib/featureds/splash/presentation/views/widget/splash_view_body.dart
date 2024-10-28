@@ -1,5 +1,6 @@
 import 'package:bookly/core/assets/svg_assets.dart';
 import 'package:bookly/core/themes/text_Theme.dart';
+import 'package:bookly/featureds/home/presentation/views/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -19,6 +20,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
     // TODO: implement initState
     super.initState();
     initAnimation();
+    navigetorToHomeView();
   }
 
   void dispose() {
@@ -65,5 +67,13 @@ class _SplashViewBodyState extends State<SplashViewBody>
       curve: Curves.easeInOut,
     ));
     controller.forward();
+  }
+
+  void navigetorToHomeView() {
+    Future.delayed(
+      Duration(seconds: 3),
+      () => Navigator.pushNamedAndRemoveUntil(
+          context, HomeView.id, (route) => false),
+    );
   }
 }
