@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class TextTheme {
+class FontTheme {
   static const TextStyle textStyle18 = TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w600,
