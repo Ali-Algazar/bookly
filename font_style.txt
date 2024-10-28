@@ -1,0 +1,9 @@
+Montserrat-SemiBold 18 
+GTSectraFine-Regular 20
+Montserrat-Medium 14
+Montserrat-Bold 15
+GTSectraFine-Regular 30
+Gilroy-Bold 16 
+
+
+
