@@ -1,3 +1,4 @@
+import 'package:bookly/core/themes/theme_data.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,8 @@ class BooklyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return MaterialApp(
+      theme: AppThemeData.lightTheme,
+    );
   }
 }
