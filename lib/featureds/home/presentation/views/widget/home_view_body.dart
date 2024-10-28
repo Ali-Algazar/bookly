@@ -1,12 +1,15 @@
+import 'package:bookly/featureds/home/presentation/views/widget/custom_home_appber.dart';
 import 'package:flutter/material.dart';
 
-class HomeViewBody extends StatelessWidget {
-  const HomeViewBody({super.key});
+class HomeBody extends StatelessWidget {
+  const HomeBody({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [],
+    return const Column(
+      children: [
+        CustomHomeAppBer(),
+      ],
     );
   }
 }
