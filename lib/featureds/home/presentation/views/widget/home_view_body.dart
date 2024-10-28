@@ -9,9 +9,6 @@ class HomeBody extends StatelessWidget {
     return const Column(
       children: [
         CustomHomeAppBer(),
-        SizedBox(
-          height: 45,
-        ),
       ],
     );
   }
