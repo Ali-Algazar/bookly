@@ -1,5 +1,6 @@
 import 'package:bookly/core/themes/text_Theme.dart';
 import 'package:bookly/featureds/home/presentation/views/widget/custom_book_detiles_appber.dart';
+import 'package:bookly/featureds/home/presentation/views/widget/preview_buttom.dart';
 import 'package:bookly/featureds/home/presentation/views/widget/retting_widget.dart';
 import 'package:bookly/featureds/home/presentation/views/widget/slider_item.dart';
 import 'package:flutter/material.dart';
@@ -50,6 +51,7 @@ class BookDetelsBody extends StatelessWidget {
           height: 10,
         ),
         const CustomRetting(),
+        const CustomPreviewButtom(),
       ],
     );
   }
