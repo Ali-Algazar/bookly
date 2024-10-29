@@ -8,15 +8,18 @@ class CustomHomeAppBer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        SvgPicture.asset(AssetsSvg.logo),
-        const Spacer(),
-        const Icon(
-          FontAwesomeIcons.magnifyingGlass,
-          color: Colors.white,
-        ),
-      ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 30),
+      child: Row(
+        children: [
+          SvgPicture.asset(AssetsSvg.logo),
+          const Spacer(),
+          const Icon(
+            FontAwesomeIcons.magnifyingGlass,
+            color: Colors.white,
+          ),
+        ],
+      ),
     );
   }
 }
