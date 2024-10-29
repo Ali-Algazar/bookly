@@ -1,3 +1,4 @@
+import 'package:bookly/featureds/home/presentation/views/widget/custom_book_detiles_appber.dart';
 import 'package:flutter/material.dart';
 
 class BookDetelsBody extends StatelessWidget {
@@ -6,7 +7,12 @@ class BookDetelsBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Column(
-      children: [],
+      children: [
+        SizedBox(
+          height: 40,
+        ),
+        CustomBookDetilesAppBer(),
+      ],
     );
   }
 }
