@@ -1,5 +1,5 @@
 import 'package:bookly/core/themes/text_Theme.dart';
-import 'package:bookly/featureds/home/presentation/views/widget/best_seller_item.dart';
+import 'package:bookly/featureds/home/presentation/views/widget/best_Seller_list_view.dart';
 import 'package:bookly/featureds/home/presentation/views/widget/custom_home_appber.dart';
 import 'package:bookly/featureds/home/presentation/views/widget/slider_list_view.dart';
 import 'package:flutter/material.dart';
@@ -38,6 +38,7 @@ class HomeBody extends StatelessWidget {
             ],
           ),
         ),
+        BestSellerListView(),
       ],
     );
   }
