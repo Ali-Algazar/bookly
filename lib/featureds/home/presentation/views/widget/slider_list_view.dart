@@ -15,7 +15,7 @@ class SliderListView extends StatelessWidget {
           itemCount: 20,
           itemBuilder: (context, index) => const Padding(
             padding: EdgeInsets.only(left: 7),
-            child: Slideritem(),
+            child: ImageItem(),
           ),
         ),
       ),

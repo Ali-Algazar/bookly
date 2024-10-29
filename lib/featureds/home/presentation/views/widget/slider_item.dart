@@ -1,8 +1,8 @@
 import 'package:bookly/core/assets/imeg.dart';
 import 'package:flutter/material.dart';
 
-class Slideritem extends StatelessWidget {
-  const Slideritem({super.key});
+class ImageItem extends StatelessWidget {
+  const ImageItem({super.key});
 
   @override
   Widget build(BuildContext context) {
