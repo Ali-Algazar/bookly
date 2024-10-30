@@ -16,7 +16,19 @@ class SearchBody extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          SearchButtom(),
+          SizedBox(
+            width: double.maxFinite,
+            height: 55,
+            child: TextButton(
+              style: const ButtonStyle(
+                  backgroundColor: MaterialStatePropertyAll(Colors.white)),
+              onPressed: () {},
+              child: Text(
+                'Search',
+                style: FontTheme.textStyle16.copyWith(color: Colors.black),
+              ),
+            ),
+          ),
         ],
       ),
     );
