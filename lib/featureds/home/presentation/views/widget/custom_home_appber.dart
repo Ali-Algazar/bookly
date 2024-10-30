@@ -1,4 +1,5 @@
 import 'package:bookly/core/assets/svg_assets.dart';
+import 'package:bookly/featureds/search/presentation/view/search_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -14,9 +15,14 @@ class CustomHomeAppBer extends StatelessWidget {
         children: [
           SvgPicture.asset(AssetsSvg.logo),
           const Spacer(),
-          const Icon(
-            FontAwesomeIcons.magnifyingGlass,
-            color: Colors.white,
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(SearchView.id);
+            },
+            icon: const Icon(
+              FontAwesomeIcons.magnifyingGlass,
+              color: Colors.white,
+            ),
           ),
         ],
       ),
