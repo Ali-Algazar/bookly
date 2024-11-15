@@ -2,7 +2,7 @@ class BookEntity {
   final String imgUrl;
   final String autherName;
   final String titel;
-  final num price;
+  final int price;
   final num rating;
 
   BookEntity({
